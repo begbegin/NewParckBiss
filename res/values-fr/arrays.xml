@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="carrosseriesArray">
+        <item >Berlines</item>
+        <item >4 roues motrices</item>
+        <item >Autobus</item>
+        <item >Camions</item>
+        <item >Machines et tracteurs</item>
+    </string-array>
+    <string-array name="marquesArray">
+        <item >TOYOTA</item>
+        <item >DACIA</item>
+        <item >VOLSKWAGEN</item>
+        <item >BENZ</item>
+    </string-array>
+    <string-array name="typeMoteurArray">
+        <item >Diesel</item>
+        <item >Carburent</item>
+        <item >Eau</item>
+    </string-array>
+    <string-array name="langArray">
+        <item >@string/french_string</item>
+        <item >@string/english_string</item>
+    </string-array>
+    
+</resources>

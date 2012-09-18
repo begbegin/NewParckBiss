@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/activity_preference_categorie_langue">
+        <ListPreference android:entryValues="@array/langArray" android:entries="@array/langArray" android:title="@string/activity_preference_categorie_langue_choix" android:key="@string/key_lang" android:defaultValue="Français"/>
+    </PreferenceCategory>
+    
+
+</PreferenceScreen>

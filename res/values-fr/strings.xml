@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ClientActivity!</string>
+    <string name="app_name">SupperParckVoiture</string>
+    <string name="activity_client_title">Bienvenue dans l\'application de fabrication de voiture</string>
+    <string name="activity_client_titre">Ma voiture</string>
+    <string name="activity_client_infos_client">Informations du client</string>
+    <string name="activity_client_infos_voiture">Informations sur la voiture</string>
+    <string name="activity_client_name">Nom</string>
+    <string name="activity_client_prenom">Prénom</string>
+    <string name="activity_client_description_voiture">Un peu de description sur la voiture</string>
+    <string name="activity_client_carrosserie_berline">Berlines</string>
+    <string name="activity_client_carrosserie">Choisissez la carrosserie</string>
+    <string name="activity_client_carrosserie_msg">Carrosserie</string>
+    <string name="activity_client_model_msg">Le model</string>
+    <string name="activity_client_button_continuer_msg">Continuer</string>
+    <string name="activity_fabrication_title">Informations sur la voiture</string>
+    <string name="activity_fabrication_button_fabriquer_msg">Fabriquer une voiture</string>
+    <string name="activity_parck_titlte">Bienvenue dans le parck des voitures fabriquées</string>
+    <string name="activity_fabrication_new_voiture_msg">Nouvelle voiture fabriquée par</string>
+    <string name="activity_parck_list_voiture_fabriquer">Liste des voitures fabriquées</string>
+    <string name="activity_parck_button_retour">Retour sur la page client</string>
+    <string name="activity_fabrication_marque_text">La marque</string>
+    <string name="activity_fabrication_moteur_text">Le Type de moteur</string>
+    <string name="activity_fabrication_button_anuler_msg">Back</string>
+    <string name="titre_boite_dialogue">Suppression</string>
+    <string name="activity_client_button_list_voiture_msg">Afficher la liste des voitures</string>
+    <string name="list_voiture_msg">Liste des voitures déjà créees</string>
+    <string name="list_voiture_titre_boite_dialogue">Liste des voitures</string>
+    <string name="activity_fabrication_text">Fabrication de voiture pour le client</string>
+    <string name="activity_fabrication_button_parck_msg">Ajouter au parc</string>
+    <string name="activity_fabrication_list_text">Liste des voitures client</string>
+    <string name="activity_fabrique_button_anuler_msg">Annuler</string>
+    <string name="activity_fabrique_button_valider_msg">Créer</string>
+    <string name="activity_fabrication_client_name">Nom :</string>
+    <string name="activity_fabrication_client_prenom">Prénom :</string>
+    <string name="activity_parck_infos_text">Cliquer sur un client pour voir ces voitures</string>
+    <string name="activity_parck_tte_voiture">Toutes les voitures</string>
+    <string name="activity_afficheclientvoiture_button_back_text">Back</string>
+    <string name="activity_main_button_parck_text">Aller au parck</string>
+    <string name="boite_dialogue_suppr_msg">Voulez-vous supprimer cette voiture?</string>
+    <string name="boite_dialogue_car_msg">La voiture</string>
+    <string name="boite_dialogue_car_suppr">à été supprimée</string>
+    <string name="activity_champ_null_msg">Les champs ne doivent pas être nuls</string>
+    <string name="activity_fabrication_obligation_msg">Fabriquez au moins une voiture pour ce client</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="activity_preference_categorie_langue">Localisation</string>
+    <string name="activity_preference_categorie_langue_choix">Choisir la langue</string>
+    <string name="preferences_langues">Preférences de langues</string>
+    <string name="preferences_langues_choix">Vous changer de langue en cliquant sur le menu</string>
+	<string name="french_string">Français</string>
+    <string name="english_string">Anglais</string>
+    <string name="menu_params_string">Paramètres</string>
+    <string name="key_lang">lang</string>
+</resources>

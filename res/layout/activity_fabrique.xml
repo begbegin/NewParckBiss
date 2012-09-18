@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="438dp"
+        android:layout_weight="0.35" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/activity_fabrication_marque_text"
+            android:textSize="12dip" />
+
+        <EditText
+            android:id="@+id/activity_fabrique_model_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:ems="10" />
+
+        <Button
+            android:id="@+id/activity_fabrique_button_valider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_weight="0.5"
+            android:text="@string/activity_fabrique_button_valider_msg" />
+
+        <Button
+            android:id="@+id/activity_fabrique_button_annuler"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/activity_fabrique_button_anuler_msg" />
+
+        <Spinner
+            android:id="@+id/activity_fabrication_marque_spin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/activity_fabrique_button_valider"
+            android:entries="@array/marquesArray" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/activity_fabrique_model_edit"
+            android:layout_alignParentLeft="true"
+            android:text="@string/activity_client_model_msg"
+            android:textSize="12dip" />
+
+        <Spinner
+            android:id="@+id/activity_fabrique_carrosserie_spin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/activity_fabrication_marque_spin"
+            android:layout_marginTop="24dp"
+            android:layout_toLeftOf="@+id/activity_fabrique_button_valider"
+            android:entries="@array/carrosseriesArray" />
+
+        <Spinner
+            android:id="@+id/activity_fabrication_moteur_spin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView8"
+            android:layout_marginBottom="14dp"
+            android:layout_toLeftOf="@+id/activity_fabrique_button_valider"
+            android:entries="@array/typeMoteurArray" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/activity_fabrique_carrosserie_spin"
+            android:layout_alignBottom="@+id/activity_fabrique_carrosserie_spin"
+            android:layout_alignParentLeft="true"
+            android:text="@string/activity_client_carrosserie_msg"
+            android:textSize="12dip" />
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/activity_fabrication_moteur_spin"
+            android:layout_alignBottom="@+id/activity_fabrication_moteur_spin"
+            android:layout_alignParentLeft="true"
+            android:text="@string/activity_fabrication_moteur_text"
+            android:textSize="12dip" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/activity_fabrique_model_edit"
+            android:layout_marginTop="22dp"
+            android:text="@string/activity_client_description_voiture"
+            android:textSize="12dip" />
+
+        <EditText
+            android:id="@+id/activity_fabrique_description_voiture_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="61dp"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="17dp"
+            android:ems="10"
+            android:inputType="textMultiLine" >
+
+            <requestFocus />
+        </EditText>
+    </RelativeLayout>
+
+</LinearLayout>

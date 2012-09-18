@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_fabrication_text" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.82" >
+
+        <Button
+            android:id="@+id/activity_fabrication_button_fabriquer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.5"
+            android:text="@string/activity_fabrication_button_fabriquer_msg" />
+
+        <Button
+            android:id="@+id/activity_fabrication_button_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/activity_fabrication_button_anuler_msg" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/activity_fabrication_button_fabriquer"
+            android:text="@string/activity_fabrication_list_text" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView2"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="14dp"
+            android:text="@string/activity_fabrication_client_name" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="14dp"
+            android:text="@string/activity_fabrication_client_prenom" />
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true" >
+        </ScrollView>
+
+        <Button
+            android:id="@+id/activity_fabrication_ajout_parck_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/activity_fabrication_button_parck_msg" />
+
+        <ListView
+            android:id="@+id/activity_fabrication_list_voiture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/activity_fabrication_button_back"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/textView3" >
+        </ListView>
+
+        <TextView
+            android:id="@+id/activity_fabrication_client_prenom_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_toLeftOf="@+id/activity_fabrication_button_fabriquer"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/activity_fabrication_client_name_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView4"
+            android:layout_alignBottom="@+id/textView4"
+            android:layout_toLeftOf="@+id/scrollView1"
+            android:text="TextView" />
+
+    </RelativeLayout>
+
+</LinearLayout>

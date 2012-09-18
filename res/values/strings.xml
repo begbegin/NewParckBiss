@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ClientActivity!</string>
+    <string name="app_name">SupperParckVoiture</string>
+    <string name="activity_client_title">Welcome to the application of car manufacturing</string>
+    <string name="activity_client_titre">Ma voiture</string>
+    <string name="activity_client_infos_client">Client Information</string>
+    <string name="activity_client_infos_voiture">Informations sur la voiture</string>
+    <string name="activity_client_name">Name</string>
+    <string name="activity_client_prenom">First name</string>
+    <string name="activity_client_description_voiture">A little description of the car</string>
+    <string name="activity_client_carrosserie_berline">Berlines</string>
+    <string name="activity_client_carrosserie">Choisissez la carrosserie</string>
+    <string name="activity_client_carrosserie_msg">Bodywork</string>
+    <string name="activity_client_model_msg">The model</string>
+    <string name="activity_client_button_continuer_msg">Continue</string>
+    <string name="activity_fabrication_title">Informations sur la voiture</string>
+    <string name="activity_fabrication_button_fabriquer_msg">Build a car</string>
+    <string name="activity_parck_titlte">Welcome parck cars made</string>
+    <string name="activity_fabrication_new_voiture_msg">Nouvelle voiture fabriquée par</string>
+    <string name="activity_parck_list_voiture_fabriquer">Liste des voitures fabriquées</string>
+    <string name="activity_parck_button_retour">Retour sur la page client</string>
+    <string name="activity_fabrication_marque_text">Brand</string>
+    <string name="activity_fabrication_moteur_text">Engine Type</string>
+    <string name="activity_fabrication_button_anuler_msg">Back</string>
+    <string name="titre_boite_dialogue">Removal</string>
+    <string name="activity_client_button_list_voiture_msg">Afficher la liste des voitures</string>
+    <string name="list_voiture_msg">Liste des voitures déjà créees</string>
+    <string name="list_voiture_titre_boite_dialogue">List of cars</string>
+    <string name="activity_fabrication_text">For the manufacture of car customer</string>
+    <string name="activity_fabrication_button_parck_msg">Add to parck</string>
+    <string name="activity_fabrication_list_text">Client list of cars</string>
+    <string name="activity_fabrique_button_anuler_msg">Cancel</string>
+    <string name="activity_fabrique_button_valider_msg">Create</string>
+    <string name="activity_fabrication_client_name">Name :</string>
+    <string name="activity_fabrication_client_prenom">First name :</string>
+    <string name="activity_parck_infos_text">Click on a client to see these cars</string>
+    <string name="activity_parck_tte_voiture">All cars</string>
+    <string name="activity_afficheclientvoiture_button_back_text">Back</string>
+    <string name="activity_main_button_parck_text">Jump to parck</string>
+    <string name="boite_dialogue_suppr_msg">Do you want to remove this car?</string>
+    <string name="boite_dialogue_car_msg">Car</string>
+    <string name="boite_dialogue_car_suppr">has been deleted</string>
+    <string name="activity_champ_null_msg">The fields need not be nulls</string>
+    <string name="activity_fabrication_obligation_msg">Producing at least one car for this client</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="activity_preference_categorie_langue">Localisation</string>
+    <string name="activity_preference_categorie_langue_choix">Select language</string>
+    <string name="french_string">French</string>
+    <string name="english_string">English</string>
+    <string name="menu_params_string">Settings</string>
+    <string name="key_lang">lang</string>
+
+</resources>
